@@ -7,25 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1032A6441CF8A42B009A93E4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6421CF8A42B009A93E4 /* HomeViewController.m */; };
+		1032A6451CF8A42B009A93E4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1032A6431CF8A42B009A93E4 /* HomeViewController.xib */; };
+		1032A6491CF8B648009A93E4 /* HotTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6481CF8B648009A93E4 /* HotTagView.m */; };
+		1032A64C1CF9B62B009A93E4 /* HTItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A64B1CF9B62B009A93E4 /* HTItemView.m */; };
+		1032A64F1CF9B645009A93E4 /* HotTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A64E1CF9B645009A93E4 /* HotTagItem.m */; };
+		1032A6511CF9D79C009A93E4 /* HotTag.json in Resources */ = {isa = PBXBuildFile; fileRef = 1032A6501CF9D79C009A93E4 /* HotTag.json */; };
+		1032A6541CF9D84F009A93E4 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6531CF9D84F009A93E4 /* FileUtil.m */; };
+		1032A6571CF9F822009A93E4 /* ImgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6561CF9F822009A93E4 /* ImgUtil.m */; };
+		1032A6A81CFC6E24009A93E4 /* CompliationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6A71CFC6E24009A93E4 /* CompliationView.m */; };
+		1032A6AC1CFC9EF8009A93E4 /* HotAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1032A6AB1CFC9EF8009A93E4 /* HotAlbumView.m */; };
 		10519C291CEEE8AB00E52691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C281CEEE8AB00E52691 /* main.m */; };
 		10519C2C1CEEE8AB00E52691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C2B1CEEE8AB00E52691 /* AppDelegate.m */; };
-		10519C2F1CEEE8AB00E52691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C2E1CEEE8AB00E52691 /* ViewController.m */; };
 		10519C321CEEE8AB00E52691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10519C301CEEE8AB00E52691 /* Main.storyboard */; };
 		10519C341CEEE8AB00E52691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10519C331CEEE8AB00E52691 /* Assets.xcassets */; };
 		10519C371CEEE8AB00E52691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10519C351CEEE8AB00E52691 /* LaunchScreen.storyboard */; };
+		10519C701CF0792200E52691 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C5E1CF0792200E52691 /* DiscoverViewController.m */; };
+		10519C711CF0792200E52691 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10519C5F1CF0792200E52691 /* DiscoverViewController.xib */; };
+		10519C741CF0792200E52691 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C661CF0792200E52691 /* MessageViewController.m */; };
+		10519C751CF0792200E52691 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10519C671CF0792200E52691 /* MessageViewController.xib */; };
+		10519C761CF0792200E52691 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C6A1CF0792200E52691 /* PersonViewController.m */; };
+		10519C771CF0792200E52691 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10519C6B1CF0792200E52691 /* PersonViewController.xib */; };
+		10519C781CF0792200E52691 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C6E1CF0792200E52691 /* PhotoViewController.m */; };
+		10519C791CF0792200E52691 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10519C6F1CF0792200E52691 /* PhotoViewController.xib */; };
+		10519C7E1CF0BE3B00E52691 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C7D1CF0BE3B00E52691 /* BaseViewController.m */; };
+		10519C811CF0BE6C00E52691 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C801CF0BE6C00E52691 /* CycleScrollView.m */; };
+		10519C8A1CF5C37D00E52691 /* FPCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10519C881CF5C37D00E52691 /* FPCollectionCell.m */; };
+		10519C8B1CF5C37D00E52691 /* FPCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10519C891CF5C37D00E52691 /* FPCollectionCell.xib */; };
+		1063660A1D03574B0061B370 /* HotFotoplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 106366091D03574B0061B370 /* HotFotoplace.m */; };
+		1063660D1D043AE40061B370 /* HotFotoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1063660C1D043AE40061B370 /* HotFotoItemView.m */; };
+		106366101D043CBE0061B370 /* HotFotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1063660F1D043CBE0061B370 /* HotFotoItem.m */; };
+		1AB64BB59C072ADB2EE35514 /* Pods_fotoplace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379A6518FA6636F6F5DEDB46 /* Pods_fotoplace.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1032A6411CF8A42B009A93E4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1032A6421CF8A42B009A93E4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1032A6431CF8A42B009A93E4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1032A6471CF8B648009A93E4 /* HotTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotTagView.h; sourceTree = "<group>"; };
+		1032A6481CF8B648009A93E4 /* HotTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotTagView.m; sourceTree = "<group>"; };
+		1032A64A1CF9B62B009A93E4 /* HTItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTItemView.h; sourceTree = "<group>"; };
+		1032A64B1CF9B62B009A93E4 /* HTItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTItemView.m; sourceTree = "<group>"; };
+		1032A64D1CF9B645009A93E4 /* HotTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotTagItem.h; sourceTree = "<group>"; };
+		1032A64E1CF9B645009A93E4 /* HotTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotTagItem.m; sourceTree = "<group>"; };
+		1032A6501CF9D79C009A93E4 /* HotTag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HotTag.json; sourceTree = "<group>"; };
+		1032A6521CF9D84F009A93E4 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		1032A6531CF9D84F009A93E4 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		1032A6551CF9F822009A93E4 /* ImgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgUtil.h; sourceTree = "<group>"; };
+		1032A6561CF9F822009A93E4 /* ImgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgUtil.m; sourceTree = "<group>"; };
+		1032A6A61CFC6E24009A93E4 /* CompliationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompliationView.h; sourceTree = "<group>"; };
+		1032A6A71CFC6E24009A93E4 /* CompliationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompliationView.m; sourceTree = "<group>"; };
+		1032A6AA1CFC9EF8009A93E4 /* HotAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotAlbumView.h; sourceTree = "<group>"; };
+		1032A6AB1CFC9EF8009A93E4 /* HotAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotAlbumView.m; sourceTree = "<group>"; };
 		10519C241CEEE8AA00E52691 /* fotoplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotoplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10519C281CEEE8AB00E52691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10519C2A1CEEE8AB00E52691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10519C2B1CEEE8AB00E52691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10519C2D1CEEE8AB00E52691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10519C2E1CEEE8AB00E52691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10519C311CEEE8AB00E52691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10519C331CEEE8AB00E52691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10519C361CEEE8AB00E52691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10519C381CEEE8AB00E52691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10519C5D1CF0792200E52691 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		10519C5E1CF0792200E52691 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		10519C5F1CF0792200E52691 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		10519C651CF0792200E52691 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		10519C661CF0792200E52691 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		10519C671CF0792200E52691 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		10519C691CF0792200E52691 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		10519C6A1CF0792200E52691 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		10519C6B1CF0792200E52691 /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		10519C6D1CF0792200E52691 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		10519C6E1CF0792200E52691 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		10519C6F1CF0792200E52691 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		10519C7C1CF0BE3B00E52691 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		10519C7D1CF0BE3B00E52691 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		10519C7F1CF0BE6C00E52691 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		10519C801CF0BE6C00E52691 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		10519C871CF5C37D00E52691 /* FPCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPCollectionCell.h; sourceTree = "<group>"; };
+		10519C881CF5C37D00E52691 /* FPCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPCollectionCell.m; sourceTree = "<group>"; };
+		10519C891CF5C37D00E52691 /* FPCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPCollectionCell.xib; sourceTree = "<group>"; };
+		106366081D03574B0061B370 /* HotFotoplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFotoplace.h; sourceTree = "<group>"; };
+		106366091D03574B0061B370 /* HotFotoplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFotoplace.m; sourceTree = "<group>"; };
+		1063660B1D043AE40061B370 /* HotFotoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFotoItemView.h; sourceTree = "<group>"; };
+		1063660C1D043AE40061B370 /* HotFotoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFotoItemView.m; sourceTree = "<group>"; };
+		1063660E1D043CBE0061B370 /* HotFotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFotoItem.h; sourceTree = "<group>"; };
+		1063660F1D043CBE0061B370 /* HotFotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFotoItem.m; sourceTree = "<group>"; };
+		379A6518FA6636F6F5DEDB46 /* Pods_fotoplace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotoplace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA5FFD8493DF8CC92565508 /* Pods-fotoplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotoplace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fotoplace/Pods-fotoplace.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C0E32799D4FAF4A08F5C46 /* Pods-fotoplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotoplace.release.xcconfig"; path = "Pods/Target Support Files/Pods-fotoplace/Pods-fotoplace.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +102,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB64BB59C072ADB2EE35514 /* Pods_fotoplace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1032A6461CF8B637009A93E4 /* HotTagView */ = {
+			isa = PBXGroup;
+			children = (
+				1032A6471CF8B648009A93E4 /* HotTagView.h */,
+				1032A6481CF8B648009A93E4 /* HotTagView.m */,
+				1032A64A1CF9B62B009A93E4 /* HTItemView.h */,
+				1032A64B1CF9B62B009A93E4 /* HTItemView.m */,
+			);
+			path = HotTagView;
+			sourceTree = "<group>";
+		};
+		1032A6A51CFC6E11009A93E4 /* CompliationView */ = {
+			isa = PBXGroup;
+			children = (
+				1032A6A61CFC6E24009A93E4 /* CompliationView.h */,
+				1032A6A71CFC6E24009A93E4 /* CompliationView.m */,
+			);
+			path = CompliationView;
+			sourceTree = "<group>";
+		};
+		1032A6A91CFC9EEA009A93E4 /* HotAlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				1032A6AA1CFC9EF8009A93E4 /* HotAlbumView.h */,
+				1032A6AB1CFC9EF8009A93E4 /* HotAlbumView.m */,
+			);
+			path = HotAlbumView;
+			sourceTree = "<group>";
+		};
 		10519C1B1CEEE8AA00E52691 = {
 			isa = PBXGroup;
 			children = (
 				10519C261CEEE8AB00E52691 /* fotoplace */,
 				10519C251CEEE8AA00E52691 /* Products */,
+				257F0F1D16836065E3B231FE /* Pods */,
+				4C2C32D28E79D84B49D1BA49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +159,12 @@
 		10519C261CEEE8AB00E52691 /* fotoplace */ = {
 			isa = PBXGroup;
 			children = (
+				10519C7A1CF0BE2600E52691 /* Base */,
+				10519C5B1CF0792200E52691 /* ViewControllers */,
+				10519C3F1CF0569E00E52691 /* Models */,
+				10519C401CF0569E00E52691 /* Utils */,
 				10519C2A1CEEE8AB00E52691 /* AppDelegate.h */,
 				10519C2B1CEEE8AB00E52691 /* AppDelegate.m */,
-				10519C2D1CEEE8AB00E52691 /* ViewController.h */,
-				10519C2E1CEEE8AB00E52691 /* ViewController.m */,
 				10519C301CEEE8AB00E52691 /* Main.storyboard */,
 				10519C331CEEE8AB00E52691 /* Assets.xcassets */,
 				10519C351CEEE8AB00E52691 /* LaunchScreen.storyboard */,
@@ -75,8 +178,147 @@
 			isa = PBXGroup;
 			children = (
 				10519C281CEEE8AB00E52691 /* main.m */,
+				1032A6501CF9D79C009A93E4 /* HotTag.json */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10519C3F1CF0569E00E52691 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1032A64D1CF9B645009A93E4 /* HotTagItem.h */,
+				1032A64E1CF9B645009A93E4 /* HotTagItem.m */,
+				1063660E1D043CBE0061B370 /* HotFotoItem.h */,
+				1063660F1D043CBE0061B370 /* HotFotoItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10519C401CF0569E00E52691 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1032A6521CF9D84F009A93E4 /* FileUtil.h */,
+				1032A6531CF9D84F009A93E4 /* FileUtil.m */,
+				1032A6551CF9F822009A93E4 /* ImgUtil.h */,
+				1032A6561CF9F822009A93E4 /* ImgUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		10519C5B1CF0792200E52691 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10519C5C1CF0792200E52691 /* Discover */,
+				10519C601CF0792200E52691 /* Home */,
+				10519C641CF0792200E52691 /* Message */,
+				10519C681CF0792200E52691 /* Person */,
+				10519C6C1CF0792200E52691 /* TakePhoto */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		10519C5C1CF0792200E52691 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				10519C5D1CF0792200E52691 /* DiscoverViewController.h */,
+				10519C5E1CF0792200E52691 /* DiscoverViewController.m */,
+				10519C5F1CF0792200E52691 /* DiscoverViewController.xib */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		10519C601CF0792200E52691 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				106366071D03573E0061B370 /* HotFotoplace */,
+				1032A6A91CFC9EEA009A93E4 /* HotAlbumView */,
+				1032A6A51CFC6E11009A93E4 /* CompliationView */,
+				1032A6461CF8B637009A93E4 /* HotTagView */,
+				10519C7B1CF0BE2F00E52691 /* CycleScrollView */,
+				1032A6411CF8A42B009A93E4 /* HomeViewController.h */,
+				1032A6421CF8A42B009A93E4 /* HomeViewController.m */,
+				1032A6431CF8A42B009A93E4 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		10519C641CF0792200E52691 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				10519C651CF0792200E52691 /* MessageViewController.h */,
+				10519C661CF0792200E52691 /* MessageViewController.m */,
+				10519C671CF0792200E52691 /* MessageViewController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		10519C681CF0792200E52691 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				10519C691CF0792200E52691 /* PersonViewController.h */,
+				10519C6A1CF0792200E52691 /* PersonViewController.m */,
+				10519C6B1CF0792200E52691 /* PersonViewController.xib */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		10519C6C1CF0792200E52691 /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				10519C6D1CF0792200E52691 /* PhotoViewController.h */,
+				10519C6E1CF0792200E52691 /* PhotoViewController.m */,
+				10519C6F1CF0792200E52691 /* PhotoViewController.xib */,
+			);
+			path = TakePhoto;
+			sourceTree = "<group>";
+		};
+		10519C7A1CF0BE2600E52691 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				10519C7C1CF0BE3B00E52691 /* BaseViewController.h */,
+				10519C7D1CF0BE3B00E52691 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		10519C7B1CF0BE2F00E52691 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				10519C7F1CF0BE6C00E52691 /* CycleScrollView.h */,
+				10519C801CF0BE6C00E52691 /* CycleScrollView.m */,
+				10519C871CF5C37D00E52691 /* FPCollectionCell.h */,
+				10519C881CF5C37D00E52691 /* FPCollectionCell.m */,
+				10519C891CF5C37D00E52691 /* FPCollectionCell.xib */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		106366071D03573E0061B370 /* HotFotoplace */ = {
+			isa = PBXGroup;
+			children = (
+				106366081D03574B0061B370 /* HotFotoplace.h */,
+				106366091D03574B0061B370 /* HotFotoplace.m */,
+				1063660B1D043AE40061B370 /* HotFotoItemView.h */,
+				1063660C1D043AE40061B370 /* HotFotoItemView.m */,
+			);
+			path = HotFotoplace;
+			sourceTree = "<group>";
+		};
+		257F0F1D16836065E3B231FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA5FFD8493DF8CC92565508 /* Pods-fotoplace.debug.xcconfig */,
+				D1C0E32799D4FAF4A08F5C46 /* Pods-fotoplace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C2C32D28E79D84B49D1BA49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379A6518FA6636F6F5DEDB46 /* Pods_fotoplace.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +328,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10519C3B1CEEE8AB00E52691 /* Build configuration list for PBXNativeTarget "fotoplace" */;
 			buildPhases = (
+				BAE460340C7C87297BE2A25E /* 📦 Check Pods Manifest.lock */,
 				10519C201CEEE8AA00E52691 /* Sources */,
 				10519C211CEEE8AA00E52691 /* Frameworks */,
 				10519C221CEEE8AA00E52691 /* Resources */,
+				33176D8C8D31880B2968EC5C /* 📦 Embed Pods Frameworks */,
+				4578C97407CB3D79C6743C73 /* 📦 Copy Pods Resources */,
+				10519C3E1CEEFD4800E52691 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -137,21 +383,106 @@
 			buildActionMask = 2147483647;
 			files = (
 				10519C371CEEE8AB00E52691 /* LaunchScreen.storyboard in Resources */,
+				10519C791CF0792200E52691 /* PhotoViewController.xib in Resources */,
+				10519C711CF0792200E52691 /* DiscoverViewController.xib in Resources */,
+				10519C8B1CF5C37D00E52691 /* FPCollectionCell.xib in Resources */,
+				10519C751CF0792200E52691 /* MessageViewController.xib in Resources */,
+				10519C771CF0792200E52691 /* PersonViewController.xib in Resources */,
 				10519C341CEEE8AB00E52691 /* Assets.xcassets in Resources */,
 				10519C321CEEE8AB00E52691 /* Main.storyboard in Resources */,
+				1032A6511CF9D79C009A93E4 /* HotTag.json in Resources */,
+				1032A6451CF8A42B009A93E4 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10519C3E1CEEFD4800E52691 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d2217e1233335bc33413f347c259febcb400762d dd1d3a2c1edec35e0b43ae4f024232d546af15af2dd2372c32c694a5f2e6bfd3";
+		};
+		33176D8C8D31880B2968EC5C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotoplace/Pods-fotoplace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4578C97407CB3D79C6743C73 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotoplace/Pods-fotoplace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE460340C7C87297BE2A25E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10519C201CEEE8AA00E52691 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10519C2F1CEEE8AB00E52691 /* ViewController.m in Sources */,
+				10519C811CF0BE6C00E52691 /* CycleScrollView.m in Sources */,
+				1032A64F1CF9B645009A93E4 /* HotTagItem.m in Sources */,
+				1032A64C1CF9B62B009A93E4 /* HTItemView.m in Sources */,
+				1063660D1D043AE40061B370 /* HotFotoItemView.m in Sources */,
+				1032A6571CF9F822009A93E4 /* ImgUtil.m in Sources */,
+				1032A6541CF9D84F009A93E4 /* FileUtil.m in Sources */,
+				106366101D043CBE0061B370 /* HotFotoItem.m in Sources */,
+				1032A6491CF8B648009A93E4 /* HotTagView.m in Sources */,
+				1032A6A81CFC6E24009A93E4 /* CompliationView.m in Sources */,
+				1063660A1D03574B0061B370 /* HotFotoplace.m in Sources */,
+				10519C8A1CF5C37D00E52691 /* FPCollectionCell.m in Sources */,
 				10519C2C1CEEE8AB00E52691 /* AppDelegate.m in Sources */,
+				1032A6441CF8A42B009A93E4 /* HomeViewController.m in Sources */,
+				10519C7E1CF0BE3B00E52691 /* BaseViewController.m in Sources */,
+				10519C741CF0792200E52691 /* MessageViewController.m in Sources */,
+				10519C701CF0792200E52691 /* DiscoverViewController.m in Sources */,
 				10519C291CEEE8AB00E52691 /* main.m in Sources */,
+				1032A6AC1CFC9EF8009A93E4 /* HotAlbumView.m in Sources */,
+				10519C761CF0792200E52691 /* PersonViewController.m in Sources */,
+				10519C781CF0792200E52691 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +594,7 @@
 		};
 		10519C3C1CEEE8AB00E52691 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA5FFD8493DF8CC92565508 /* Pods-fotoplace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fotoplace/Info.plist;
@@ -274,6 +606,7 @@
 		};
 		10519C3D1CEEE8AB00E52691 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C0E32799D4FAF4A08F5C46 /* Pods-fotoplace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fotoplace/Info.plist;
@@ -302,6 +635,7 @@
 				10519C3D1CEEE8AB00E52691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

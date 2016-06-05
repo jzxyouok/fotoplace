@@ -7,6 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
+#import "HomeViewController.h"
+#import "DiscoverViewController.h"
+#import "MessageViewController.h"
+#import "PersonViewController.h"
+#import "PhotoViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,7 +26,53 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Fabric with:@[[Crashlytics class]]];
+    
+    [self initilaize];
+    
     return YES;
+}
+
+- (void)initilaize {
+    
+    HomeViewController * hv = [[HomeViewController alloc] init];
+    DiscoverViewController * dv = [[DiscoverViewController alloc] init];
+    PhotoViewController * pov = [[PhotoViewController alloc] init];
+    MessageViewController * mc = [[MessageViewController alloc] init];
+    PersonViewController * pv = [[PersonViewController alloc] init];
+    
+    UINavigationController * hnv = [[UINavigationController alloc] initWithRootViewController:hv];
+    hnv.navigationBarHidden = YES;
+    UINavigationController * dnv = [[UINavigationController alloc] initWithRootViewController:dv];
+    dnv.navigationBarHidden = YES;
+    UINavigationController * ponv = [[UINavigationController alloc] initWithRootViewController:pov];
+    ponv.navigationBarHidden = YES;
+    UINavigationController * mnv = [[UINavigationController alloc] initWithRootViewController:mc];
+    mnv.navigationBarHidden = YES;
+    UINavigationController * pnv = [[UINavigationController alloc] initWithRootViewController:pv];
+    pnv.navigationBarHidden = YES;
+    
+    UITabBarController * tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[hnv,dnv,ponv,mnv,pnv]];
+    
+    UITabBar * tabbar = tabBarController.tabBar;
+    
+    UITabBarItem * item1 = [tabbar.items objectAtIndex:0];
+    UITabBarItem * item2 = [tabbar.items objectAtIndex:1];
+    UITabBarItem * item3 = [tabbar.items objectAtIndex:2];
+    UITabBarItem * item4 = [tabbar.items objectAtIndex:3];
+    UITabBarItem * item5 = [tabbar.items objectAtIndex:4];
+    
+    item1.title = @"首页";
+    item2.title = @"发现";
+    item3.title = @"拍照";
+    item4.title = @"消息";
+    item5.title = @"个人";
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
